@@ -18,7 +18,7 @@ body{
 }
 .super-tag{
   background: #FF7BDA;
-  padding: 2px;
+  padding: 2px 5px;
   top: -20px;
   right: 20px;
   border-radius: 2px;
@@ -37,21 +37,21 @@ body{
   padding-bottom: 3px;
 }
 .container{
-  max-width: 500px;
+  max-width: 450px;
 }
 .heading-1{
   text-align: center;
   margin-top: 5rem;
   text-shadow: 2px 2px 3px #898999;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .para-1{
   text-align: center;
   display: block;
   color: white;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 0.8rem;
 }
 .para-2{
@@ -59,7 +59,7 @@ body{
   display: block;
   color: white;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .arrow-wrap{
   text-align: start;
@@ -73,7 +73,7 @@ body{
   color: white;
   display: inline;
   border: 1px solid transparent;
-  padding: 6px 8px;
+  padding: 6px 5px;
   margin: 10px;
   box-sizing: border-box;
   position: relative;
@@ -99,10 +99,7 @@ a{
   transform: rotate(45deg);
 }
 .rotate-left{
-  transform: rotate(-90deg);
-}
-.flipping{
-  transform: scale(-1,1);
+  transform: rotate(90deg) scale(-1,1);
 }
 .button-wrap{
   display: block;
@@ -110,7 +107,7 @@ a{
 }
 .color-button-1{
   background: #051937;
-  box-shadow: 10px 2px 8px 0 rgba(0, 0, 0, 20%), 0 6px 20px 0 rgba(0, 0, 0,50%);
+  box-shadow: 4px 6px 8px 4px rgba(0, 0, 0, 20%);
   display: inline;
   color: white;
   padding: 10px 50px;
@@ -118,7 +115,7 @@ a{
 }
 .color-button-2{
   background: #A8EB12;
-  box-shadow: 10px 2px 8px 0 rgba(0, 0, 0, 20%), 0 6px 20px 0 rgba(0, 0, 0,50%);
+  box-shadow: 7px 6px 5px 2px rgba(0, 0, 0, 20%);
   display: inline;
   color: black;
   padding: 10px 50px;
@@ -127,7 +124,7 @@ a{
 .generate-button{
   margin-left: auto;
   padding: 10px 30px;
-  box-shadow: 10px 2px 8px 0 rgba(0, 0, 0, 20%), 0 6px 20px 0 rgba(0, 0, 0,50%);
+  box-shadow: 7px 6px 5px 2px rgba(0, 0, 0, 20%);
   background: #00c9b7;
 }
 .code-body{
@@ -136,18 +133,15 @@ a{
 .para-code-heading{
   color: white;
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 .para-code{
+  font-family: 'Space Mono', monospace;
   border-left: 3px solid white;
   background: rgba(255, 255, 255, 10%);
   max-width: 500px;
   text-align: start;
   color: white;
   border-radius: 5px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  font-weight: 700;
-  letter-spacing: 2px;
+  padding: 10px 20px 10px 10px;
 }
